@@ -20,6 +20,7 @@ namespace IdentityServer4Sample.Configuration
     {
       new TestUser
       {
+          
           SubjectId = "a9ea0f25-b964-409f-bcce-c923266249b4",
           Username = "Gowtham",
           Password = "GowthamPassword",
