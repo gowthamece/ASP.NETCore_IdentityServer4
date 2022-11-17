@@ -21,7 +21,8 @@ namespace IdentityServer4
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<StartupNCache>();
+                  //  webBuilder.UseStartup<StartupNCache>();
+                    webBuilder.UseStartup<StartupEFCore>();
                 });
     }
 }
